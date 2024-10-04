@@ -88,6 +88,11 @@
     width: 100%;
     height: auto;
   }
+
+  /* informasi wa */
+  .informasi-panel {
+    font-size: 20px;
+  }
 }
 
 /* @media screen and (max-width: 350px) {
