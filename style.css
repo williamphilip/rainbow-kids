@@ -253,7 +253,7 @@ section {
 
 .informasi-panel p {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 32px;
   color: #26355d;
 }
 
@@ -264,7 +264,7 @@ section {
 .informasi-panel a i {
   color: #26355d;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .informasi-panel a {
