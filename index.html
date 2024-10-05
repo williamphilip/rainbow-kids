@@ -39,7 +39,7 @@
       <div class="container">
         <a class="navbar-brand" href="#beranda">
           <img
-            src="img/logo.ico"
+            src="img/logo.jpeg"
             alt="logo"
             width="30"
             class="d-inline-block align-text-top me-3"
@@ -100,7 +100,9 @@
             <a href="https://wa.me/+6282194448989" target="_blank"
               ><i class="fa-brands fa-whatsapp me-3"></i
             ></a>
-            <a href="https://www.instagram.com/rainbowkids.alauddin/" target="_blank"
+            <a
+              href="https://www.instagram.com/rainbowkids.alauddin/"
+              target="_blank"
               ><i class="fa-brands fa-square-instagram me-3"></i
             ></a>
           </div>
@@ -162,7 +164,7 @@
                 <h6>Free:</h6>
                 <p>* Seragam</p>
                 <p>* Trial 2x</p>
-                <h5>Jumlah Anak: 3 - 5 Tahun</h5>
+                <h5>Jumlah Anak: 3 - 5 Anak</h5>
                 <h6>(1 Jam)</h6>
                 <br />
                 <div class="time">
@@ -179,6 +181,7 @@
                   <button class="button-jadwal-satu">Rp. 275.000,-</button>
                 </a>
               </div>
+              <h6>* 8 x sebulan</h6>
             </div>
           </div>
           <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
@@ -189,7 +192,7 @@
                 <h6>Free:</h6>
                 <p>* Seragam</p>
                 <p>* Trial 2x</p>
-                <h5>Jumlah Anak: 3 - 5 Tahun</h5>
+                <h5>Jumlah Anak: 3 - 5 Anak</h5>
                 <h6>(1 Jam)</h6>
                 <br />
                 <div class="time">
@@ -206,17 +209,18 @@
                   <button class="button-jadwal-dua">Rp. 325.000,-</button>
                 </a>
               </div>
+              <h6>* 12 x sebulan</h6>
             </div>
           </div>
           <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
             <div class="card card-3">
               <div class="card-body">
                 <h3 class="card-title">4 x Seminggu</h3>
-                <h5>Senin, Selasa, Rabu, Kamis</h5>
+                <h5>Senin - Kamis</h5>
                 <h6>Free:</h6>
                 <p>* Seragam</p>
                 <p>* Trial 2x</p>
-                <h5>Jumlah Anak: 3 - 5 Tahun</h5>
+                <h5>Jumlah Anak: 3 - 5 Anak</h5>
                 <h6>(1 Jam)</h6>
                 <br />
                 <div class="time">
@@ -233,17 +237,18 @@
                   <button class="button-jadwal-tiga">Rp. 400.000,-</button>
                 </a>
               </div>
+              <h6>* 16 x sebulan</h6>
             </div>
           </div>
           <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
             <div class="card card-4">
               <div class="card-body">
                 <h3 class="card-title">5 x Seminggu</h3>
-                <h5>Senin, Selasa, Rabu, Kamis, Jumat</h5>
+                <h5>Senin - Jumat</h5>
                 <h6>Free:</h6>
                 <p>* Seragam</p>
                 <p>* Trial 2x</p>
-                <h5>Jumlah Anak: 3 - 5 Tahun</h5>
+                <h5>Jumlah Anak: 3 - 5 Anak</h5>
                 <h6>(1 Jam)</h6>
                 <br />
                 <div class="time">
@@ -260,6 +265,7 @@
                   <button class="button-tentang-kami">Rp. 450.000,-</button>
                 </a>
               </div>
+              <h6>* 20 x sebulan</h6>
             </div>
           </div>
         </div>
@@ -385,7 +391,11 @@
             <p>Dapatkan <span>Informasi</span></p>
           </div>
           <div class="col-md-6">
-            <a href="https://wa.me/+62 82194448989" class="whatsapp" target="_blank">
+            <a
+              href="https://wa.me/+6282194448989"
+              class="whatsapp"
+              target="_blank"
+            >
               <i class="fa-brands fa-whatsapp"></i>
               Klik disini
             </a>
@@ -399,11 +409,23 @@
     <section id="kontak">
       <div class="container">
         <div class="row mt-5 text-center">
-          <h2>KONTAK</h2>
+          <h2>KON<span>TAK</span></h2>
         </div>
         <div class="row mt-3">
           <div class="col-md-6 col-sm-12 col-xs-12 mb-3">
-            <form>
+            <div
+              class="alert alert-success alert-dismissible fade show d-none my-alert"
+              role="alert"
+            >
+              <strong>Terima Kasih</strong> Pesan anda sudah kami terima.
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+            <form name="form-registrasi-rainbowkids">
               <h3 class="text-center">Registrasi</h3>
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
@@ -412,32 +434,53 @@
                   class="form-control"
                   id="name"
                   aria-describedby="name"
+                  name="nama"
                 />
               </div>
               <div class="mb-3">
                 <label for="nohp" class="form-label">No. HandPhone</label>
-                <input type="number" class="form-control" id="nohp" />
+                <input
+                  type="number"
+                  class="form-control"
+                  id="nohp"
+                  name="nohp"
+                />
               </div>
               <div class="mb-3">
                 <label for="alamat" class="form-label">Alamat</label>
-                <input type="text" class="form-control" id="alamat" />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="alamat"
+                  name="alamat"
+                />
               </div>
               <div class="mb-3">
                 <label for="jadwal" class="form-label">Jadwal</label>
-                <select
-                  class="form-select"
-                  aria-label="Default select example"
-                  id="jadwal"
-                >
-                  <option selected>Pilih Jadwal</option>
-                  <option value="1">2 x seminggu</option>
-                  <option value="2">3 x seminggu</option>
-                  <option value="3">4 x seminggu</option>
-                  <option value="3">5 x seminggu</option>
-                </select>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="1"
+                  name="jadwal"
+                  placeholder="misal: 2 x seminggu"
+                ></textarea>
               </div>
               <a href="">
-                <button class="button-tentang-kami">Kirim</button>
+                <button type="submit" class="button-tentang-kami btn-kirim">
+                  Kirim
+                </button>
+                <button
+                  class="button-tentang-kami btn-loading d-none"
+                  type="button"
+                  disabled
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  Loading...
+                </button>
               </a>
             </form>
           </div>
@@ -446,7 +489,7 @@
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.491386922081!2d119.43976087584733!3d-5.1851531947923615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee301369acb3f%3A0x982dfe62fd7174e5!2sRainbow%20Kids%20Alauddin!5e0!3m2!1sid!2sid!4v1727841858785!5m2!1sid!2sid"
                 width="400"
-                height="300"
+                height="380"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
@@ -464,11 +507,13 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md">
-            <a href="https://www.instagram.com/rainbowkids.alauddin/" target="_blank"
-              ><i class="fa-brands fa-square-instagram me-4"></i
-            ></a>
             <a href="https://wa.me/+6282194448989" target="_blank"
-              ><i class="fa-brands fa-whatsapp me-4"></i
+              ><i class="fa-brands fa-whatsapp me-3"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/rainbowkids.alauddin/"
+              target="_blank"
+              ><i class="fa-brands fa-square-instagram me-3"></i
             ></a>
           </div>
           <div class="col-md">
@@ -484,5 +529,34 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxwEaRLwuq1ALkcFhcR8E_51DpQ_Iy8Xzm0rraiyP5svoRZBJ6xBUyVt34RPCHe-0vX/exec";
+      const form = document.forms["form-registrasi-rainbowkids"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit di klik
+        // tampilkan tombol loading, hilangkan tombol kirim (manipulasi menggunakan toggle)
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset form (menghilangkan isi form)
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
