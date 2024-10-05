@@ -212,6 +212,10 @@ section {
   font-weight: 700;
 }
 
+.card-1 h6 {
+  color: #95e1d3;
+}
+
 /* info panel */
 .info-panel {
   background-color: #f38181;
